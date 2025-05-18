@@ -1,0 +1,44 @@
+name: notes
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0-134.0.dev
+
+dependencies:
+  bloc: ^9.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  freezed_annotation: ^2.4.1
+  get_it: ^8.0.3
+  isar:
+    hosted:
+      name: isar
+      url: https://pub.isar-community.dev/
+    version: ^3.0.0
+
+  isar_flutter_libs:
+    hosted:
+      name: isar_flutter_libs
+      url: https://pub.isar-community.dev/
+    version: ^3.0.0
+  path_provider: ^2.1.5
+  rxdart: ^0.28.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  isar_generator:
+    hosted:
+      name: isar_generator
+      url: https://pub.isar-community.dev/
+    version: ^3.0.0
+  build_runner: ^2.4.6
+  freezed: ^2.4.5
+  analyzer: ^5.13.0
+
+flutter:
+  uses-material-design: true
